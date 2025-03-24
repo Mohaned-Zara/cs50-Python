@@ -7,7 +7,7 @@ def main():
 
 
 def is_valid(plate):
-    if len(plate) > 7:
+    if 2 <= len(plate) < 7:
         return False
     else:
         
@@ -35,19 +35,6 @@ def is_valid(plate):
                     print(num)
                     return False
             return True
-
-
-    """
-    ltrs=""
-    nums=""
-    for i in s:
-        if i.isalpha():
-            ltrs = ltrs + i
-        elif i.isdigit():
-            nums += i
-    int_num=int(nums)
-    """
-
 
 
 main()
