@@ -28,11 +28,7 @@ def is_valid(plate):
         return True
 
 
-
-
-
-
-
+# make the following work
 
 """
 
