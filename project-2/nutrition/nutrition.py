@@ -2,7 +2,7 @@ Item = input("Item: ").lower().title()
 
 Items= {
 "Apple"              : "130",
-"Avocado" : "50",
+"Avocado"            : "50",
 "Banana"             : "110",
 "Cantaloupe"         : "50",
 "Grapefruit"         : "60",
