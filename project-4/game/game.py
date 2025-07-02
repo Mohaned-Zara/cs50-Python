@@ -18,6 +18,9 @@ def main():
     while True:
         try: 
             guess = int(input("guess:"))
+            while(guess <= int(0)):
+                guess = int(input("guess:"))
+
             if guess < random_number:
                 print("Too small!")
             elif guess > random_number:
